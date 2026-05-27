@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>InclusiMove Login</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Ícones -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Lado esquerdo -->
+    <div class="left">
+
+      <div class="top-number">1</div>
+
+      <div class="logo">
+        <h1>inclusi<span>move</span></h1>
+        <p>Mobilidade acessível para todos.</p>
+      </div>
+
+      <div class="image-box">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/4320/4320337.png"
+          alt="Pessoa PCD"
+        />
+      </div>
+
+      <div class="cards">
+
+        <div class="card blue">
+          <i class="fa-solid fa-wheelchair"></i>
+          <span>Acessibilidade</span>
+        </div>
+
+        <div class="card yellow">
+          <i class="fa-solid fa-ear-listen"></i>
+          <span>Audição</span>
+        </div>
+
+        <div class="card red">
+          <i class="fa-solid fa-brain"></i>
+          <span>Neurodivergente</span>
+        </div>
+
+        <div class="card green">
+          <i class="fa-solid fa-person"></i>
+          <span>Mobilidade</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Lado direito -->
+    <div class="right">
+
+      <h2>Bem-vindo!</h2>
+      <p class="subtitle">Faça login para continuar</p>
+
+      <form id="loginForm">
+
+        <div class="input-group">
+          <i class="fa-regular fa-user"></i>
+          <input type="email" placeholder="E-mail" required />
+        </div>
+
+        <div class="input-group">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" id="password" placeholder="Senha" required />
+
+          <i class="fa-regular fa-eye toggle-password" id="togglePassword"></i>
+        </div>
+
+        <a href="#" class="forgot">Esqueceu sua senha?</a>
+
+        <button type="submit" class="login-btn">
+          Entrar
+        </button>
+
+      </form>
+
+      <div class="divider">
+        <span>ou entre com</span>
+      </div>
+
+      <button class="google-btn">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/300/300221.png"
+          alt="Google"
+        />
+        Google
+      </button>
+
+      <p class="register-text">Não tem uma conta?</p>
+
+      <div class="register-buttons">
+
+        <button class="pcd-btn">
+          <i class="fa-solid fa-wheelchair"></i>
+          Cadastrar pessoa PCD
+        </button>
+
+        <button class="comp-btn">
+          <i class="fa-solid fa-user-group"></i>
+          Cadastrar acompanhante
+        </button>
+
+      </div>
+
+      <p class="terms">
+        Ao continuar, você concorda com nossos
+        <a href="#">Termos de Uso</a> e
+        <a href="#">Política de Privacidade</a>
+      </p>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
