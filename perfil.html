@@ -4,12 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>perfil</title>
+
     <link rel="stylesheet" href="perfil.css">
 
     <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
 </head>
 <body>
     
+
+    <div class="container">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <div class="logo">
+      <i class="fa-solid fa-wheelchair"></i>
+      <span>inclusimove</span>
+    </div>
+
+    <ul class="menu"> 
+    
+      <li>
+        <i   class="fa-solid   fa-house"></i>
+        <a href="homepage.html">
+        Início
+        </a>
+      </li>
+
+      <li class="active">
+        <i class="fa-regular fa-calendar"></i>
+        <a href="agendamento.html">
+        Agendar
+        </a>
+      </li>
+
+      <li class="">
+        <i class="fa-solid fa-car"></i>
+        <a href="viagem.html">
+        Minhas viagens
+        </a>
+      </li>
+
+      <li class="s">
+        <i class="fa-regular fa-user"></i>
+        <a href="perfil.html">
+        Perfil
+        </a>
+      </li>
+
+      
+
+    </ul>
+
+    <button class="logout">
+      <i class="fa-solid fa-right-from-bracket"></i>
+      <a style="text-decoration: none; color: crimson;" href="index.html">
+      Sair
+      </a>
+    </button>
+    </div>
+  <div class="perfil-container">
+
+    <div class="perfil-card">
+
+        <div class="perfil-topo">
+
+            <img
+            src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+            alt="Usuário">
+
+            <h2>Vitor Hugo</h2>
+
+            <span>Pessoa PCD</span>
+
+        </div>
+
+        <form id="perfilForm">
+
+            <div class="input-group">
+
+                <label>Nome Completo</label>
+
+                <input
+                type="text"
+                id="nome"
+                value="Vitor Hugo">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>E-mail</label>
+
+                <input
+                type="email"
+                id="email"
+                value="vitor@email.com">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>Telefone</label>
+
+                <input
+                type="text"
+                id="telefone"
+                value="(11) 99999-9999">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>CPF</label>
+
+                <input
+                type="text"
+                id="cpf"
+                value="000.000.000-00">
+
+            </div>
+
+            <button type="submit">
+                Salvar Alterações
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+     
 </body>
 </html>
